@@ -25,7 +25,7 @@ def start_game(flashcard_list, the_canvas):
 
 
 window = init_window()
-the_canvas = create_canvas(window)
+create_canvas(window)
 flashcards = get_flashcards()
 
 start_game(flashcards, Canvas(window, width=550, height=370, highlightthickness=0))

@@ -2,7 +2,8 @@ import json
 
 JSON_FILE = "Questions_And_Answers.json"
 
-class flashcard:
+
+class FlashCard:
     def __init__(self, question, answer):
         self.question = question
         self.answer = answer
@@ -19,5 +20,5 @@ def get_flashcards():
 
     flashcard_list = list()
     for question in questions_as_json:
-        flashcard_list.append(flashcard(question["question"], question["subject"]))
+        flashcard_list.append(FlashCard(question["question"], question["subject"]))
     return flashcard_list
