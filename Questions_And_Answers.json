@@ -7,22 +7,9 @@
       "gender",
       "personal"
     ],
-    "times_answered": 0,
-    "times_answered_correctly": 0,
-    "date_last_answered": "None",
+    "seen": 0,
     "image": "C://local_url",
-    "answers": [
-      {
-        "value": "Yes",
-        "correctness": "True",
-        "explanation": "You where born with a penis."
-      },
-      {
-        "value": "No",
-        "correctness": "False",
-        "explanation": "You where born with a penis."
-      }
-    ]
+    "answer": "Yes"
   },
   {
     "question": "Are you female?",
@@ -32,21 +19,7 @@
       "gender",
       "personal"
     ],
-    "times_answered": 0,
-    "times_answered_correctly": 0,
-    "date_last_answered": "None",
-    "image": "C://local_url",
-    "answers": [
-      {
-        "value": "Yes",
-        "correctness": "True",
-        "explanation": "You where born with a penis."
-      },
-      {
-        "value": "No",
-        "correctness": "False",
-        "explanation": "You where born with a penis."
-      }
-    ]
+    "seen": 0,
+    "answer": "No"
   }
   ]

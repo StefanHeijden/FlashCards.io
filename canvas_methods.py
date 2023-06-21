@@ -1,5 +1,5 @@
 from stats import STATS
-from flashcards import generate_new_question
+from flashcards import generate_next_random_flashcard, generate_next_random_from_source, generate_next_random_from_theme
 
 
 def flip(flashcard_list, the_canvas):
@@ -21,13 +21,24 @@ def put_card_on_the_screen(flashcard_list, the_canvas):
 
 
 def next_card(flashcard_list, the_canvas):
-    if STATS["index"] + 1 < len(flashcard_list):
-        STATS["index"] = STATS["index"] + 1
-        put_card_on_the_screen(flashcard_list, the_canvas)
-    else:
-        generate_new_question(flashcard_list, the_canvas, STATS["index"])
-        STATS["index"] = STATS["index"] + 1
-        put_card_on_the_screen(flashcard_list, the_canvas)
+    STATS["index"] = STATS["index"] + 1
+    if STATS["index"] >= len(flashcard_list):
+        generate_next_random_flashcard(flashcard_list)
+    put_card_on_the_screen(flashcard_list, the_canvas)
+
+
+def next_card_from_subject(flashcard_list, the_canvas):
+    STATS["index"] = STATS["index"] + 1
+    if STATS["index"] >= len(flashcard_list):
+        generate_next_random_from_source(flashcard_list[STATS["index"] - 1], flashcard_list)
+    put_card_on_the_screen(flashcard_list, the_canvas)
+
+
+def next_card_from_theme(flashcard_list, the_canvas):
+    STATS["index"] = STATS["index"] + 1
+    if STATS["index"] >= len(flashcard_list):
+        generate_next_random_from_theme(flashcard_list[STATS["index"] - 1], flashcard_list)
+    put_card_on_the_screen(flashcard_list, the_canvas)
 
 
 def prev_card(flashcard_list, the_canvas):
