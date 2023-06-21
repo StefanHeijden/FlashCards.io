@@ -2,7 +2,7 @@
     {
         "question": "Are you male?",
         "answer": "Yes",
-        "source": "JavaBook",
+        "source": "BookOfLife",
         "subject": "Chapter1",
         "themes": [
             "people",
@@ -13,7 +13,7 @@
     {
         "question": "Are you female?",
         "answer": "No",
-        "source": "JavaBook",
+        "source": "BookOfLife",
         "subject": "Chapter1",
         "themes": [
             "people",
@@ -24,7 +24,7 @@
     {
         "question": "Are you non-binary?",
         "answer": "No",
-        "source": "JavaBook",
+        "source": "BookOfLife",
         "subject": "Chapter1",
         "themes": [
             "people",
@@ -33,81 +33,89 @@
         "seen": 0
     },
     {
-        "question": "Do you have hair?Yes",
-        "answer": "people",
-        "source": "JavaBook",
+        "question": "Do you have hair?",
+        "answer": "Yes",
+        "source": "BookOfLife",
         "subject": "Chapter2",
         "themes": [
+            "people",
             "appearance"
         ],
         "seen": 0
     },
     {
-        "question": "Is your hair color blue?No",
-        "answer": "people",
-        "source": "JavaBook",
+        "question": "Is your hair color blue?",
+        "answer": "No",
+        "source": "BookOfLife",
         "subject": "Chapter2",
         "themes": [
+            "people",
             "appearance"
         ],
         "seen": 0
     },
     {
-        "question": "Do you have blue eyes?No",
-        "answer": "people",
-        "source": "JavaBook",
+        "question": "Do you have blue eyes?",
+        "answer": "No",
+        "source": "BookOfLife",
         "subject": "Chapter2",
         "themes": [
+            "people",
             "appearance"
         ],
         "seen": 0
     },
     {
-        "question": "Do you have a moustachio?Yes",
-        "answer": "people",
-        "source": "JavaBook",
+        "question": "Do you have a moustachio?",
+        "answer": "Yes",
+        "source": "BookOfLife",
         "subject": "Chapter2",
         "themes": [
+            "people",
             "appearance"
         ],
         "seen": 0
     },
     {
-        "question": "Is your mother names kayle?No",
-        "answer": "relatives",
-        "source": "JavaBook",
+        "question": "Is your mother names kayle?",
+        "answer": "No",
+        "source": "BookOfLife",
         "subject": "Chapter3",
         "themes": [
+            "relatives",
             "people"
         ],
         "seen": 0
     },
     {
-        "question": "Is your father names marc?Yes",
-        "answer": "relatives",
-        "source": "JavaBook",
+        "question": "Is your father names marc?",
+        "answer": "Yes",
+        "source": "BookOfLife",
         "subject": "Chapter3",
         "themes": [
+            "relatives",
             "people"
         ],
         "seen": 0
     },
     {
-        "question": "Is your brother names maximilian?Yes",
-        "answer": "relatives",
-        "source": "JavaBook",
+        "question": "Is your brother names maximilian?",
+        "answer": "Yes",
+        "source": "BookOfLife",
         "subject": "Chapter3",
         "themes": [
+            "relatives",
             "people"
         ],
         "seen": 0
     },
     {
-        "question": "Is your dog names smooky the bandito?Yes",
-        "answer": "relatives",
-        "source": "JavaBook",
+        "question": "Is your dog names smooky the bandito?",
+        "answer": "Yes",
+        "source": "BookOfLife",
         "subject": "Chapter3",
         "themes": [
+            "relatives",
             "people"
         ],
         "seen": 0
