@@ -26,7 +26,7 @@ def generate_next_random_flashcard(flashcard_list):
 def generate_next_random_from_source(flashcard: FlashCard, flashcard_list):
     new_flashcard = pick_random_flash_card(
         get_least_seen_flash_cards(
-            get_flash_cards_with_source(flashcard.subject, flashcard_list)
+            get_flash_cards_with_subject(flashcard.subject, flashcard.source, flashcard_list)
         )
     )
     if new_flashcard is None:
@@ -68,10 +68,10 @@ def get_flashcards():
     return flashcard_list
 
 
-def get_flash_cards_with_subject(subject, flashcards):
+def get_flash_cards_with_subject(subject, source, flashcards):
     new_flashcards = []
     for flashcard in flashcards:
-        if flashcard["subject"] == subject:
+        if flashcard.source == source and flashcard["subject"] == subject:
             new_flashcards.append(flashcard)
     return new_flashcards
 
